@@ -1,0 +1,39 @@
+p {
+    color: blue;
+}
+
+#p-rojo {
+    color: red;
+}
+
+.p-verde {
+    color: green;
+    font-size: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+/*
+Etiquetas - Menos nivel de especificidad
+Clases - Nivel de especifidad medio
+Id - Mayor nivel de especificidad
+*/
+
+h1 {
+    text-align: center;
+    color: red
+}
+
+ul li {
+    color: yellow
+}
+
+p em {
+    color: green
+}

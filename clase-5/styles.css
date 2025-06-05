@@ -1,0 +1,43 @@
+/*
+p {}
+
+.div1 {
+    color: red;
+}
+
+
+#id1 {
+    text-align: center;
+}
+
+.id1 {
+    text-align: center;
+}
+
+
+div p {
+    text-align: center;
+}
+*/
+div ul li {
+    color: green
+}
+
+.div1 ul li {}
+
+/*
+img {
+    border: 5px solid rgb(62, 62, 120);
+}
+*/
+
+.imagen1 {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.imagen1 img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+}

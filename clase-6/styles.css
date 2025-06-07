@@ -1,0 +1,54 @@
+/*
+p {
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+}
+    */
+
+#parrafo-1 {
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    border: 10px solid black;
+    /*margin: 25px;*/
+    margin-top: 40px;
+    padding: 15px 20px 25px 30px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    position: sticky;
+    top: 100px;
+    left: 400px;
+}
+
+#parrafo-2 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    /*display: none;
+    visibility: hidden;*/
+    inset-inline-start: 1000px;
+    inset-block-start: 500px;
+}
+
+#parrafo-3 {
+    background-color: green;
+    height: 250px;
+    width: 250px;
+
+}
+
+#parrafo-4 {
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+}
+
+#parrafo-5 {
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+}

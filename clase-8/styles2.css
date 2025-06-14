@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+h1 {
+    margin-left: 25px;
+    color: white;
+    padding: 22px 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.interno {
+    display: none;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.interno li {
+    background-color: black;
+    color: white;
+}
+
+.interno li:hover {
+    background-color: red;
+    color: blue;
+}
+
+#padre:hover .interno {
+    display: block;
+}

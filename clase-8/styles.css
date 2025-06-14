@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+h1 {
+    margin-left: 25px;
+    color: white;
+    padding: 22px 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    float: left;
+    color: white;
+    text-align: center;
+    /*padding: 25px; // 25px 25px 25px 25px
+    padding: 25px 0px; // 25px 0px 25px 0px
+    padding: 25px 0px 25px; // 25px 0px 25px 25px
+    */
+    padding: 25px 25px 25px 25px;
+    /*
+    padding-top: 25px;
+    padding-bottom: 25px;
+    */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}

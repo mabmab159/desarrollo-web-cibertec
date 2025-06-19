@@ -1,0 +1,22 @@
+p {
+    color: red;
+}
+
+audio {
+    width: 500px;
+    height: 100px;
+    margin: 25px;
+    border: 1px solid black;
+}
+
+video {
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+iframe {
+    border: 5px solid blue;
+    padding: 25px;
+}

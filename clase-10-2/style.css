@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .cabecera {
     background-color: black;
     display: grid;
@@ -20,12 +25,33 @@ ul {
 
 section {
     display: grid;
-    margin: 0 25px;
+    margin: 0 100px;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(3, 20px);
-    gap: 25px;
+    gap: 100px;
 }
 
 section article img {
     width: 100%;
+}
+
+img:hover,
+h3:hover {
+    animation-name: escalarImagen, moverImagen;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+    /*transform: scaleX(1.5) scaleY(1.2);*/
+}
+
+@keyframes escalarImagen {
+    100% {
+        transform: scaleX(1.5) scaleY(1.2);
+    }
+}
+
+@keyframes moverImagen {
+    100% {
+        border-radius: 10px;
+        transform: translateY(30px);
+    }
 }

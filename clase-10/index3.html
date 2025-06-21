@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 - Animaciones</title>
+    <style>
+        .caja {
+            width: 120px;
+            height: 120px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+
+            animation-name: animacionCompleta;
+            animation-duration: 3s;
+            animation-delay: 500ms;
+            animation-iteration-count: infinite;
+            /*animation-direction: alternate;
+            animation-fill-mode: both;*/
+            animation-play-state: running;
+        }
+
+        .caja:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes animacionCompleta {
+            0% {
+                transform: translateX(0) scale(1) rotate(0deg);
+            }
+
+            100% {
+                transform: translateX(150px) scale(1.2) rotate(20deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caja">!Hola!</div>
+</body>
+
+</html>

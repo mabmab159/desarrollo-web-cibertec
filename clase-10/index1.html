@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 - Animaciones</title>
+    <style>
+        .animado {
+            width: 100px;
+            height: 100px;
+            background-color: chocolate;
+            position: relative;
+
+            animation-name: moverCaja;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 10s;
+            animation: moverCaja 4s infinite 10s;
+        }
+
+        @keyframes moverCaja {
+            0% {
+                background-color: royalblue;
+                transform: translateX(0);
+            }
+
+            50% {
+                background-color: red;
+                transform: translateX(100px);
+            }
+
+            75% {
+                background-color: black;
+                transform: translateY(100px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animado"></div>
+</body>
+
+</html>

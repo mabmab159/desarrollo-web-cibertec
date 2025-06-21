@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 - Animaciones</title>
+    <style>
+        .caja {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .caja:hover {
+            animation-name: cambiarColor;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-delay: 0s;
+        }
+
+        @keyframes cambiarColor {
+            0% {}
+
+            100% {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caja"></div>
+</body>
+
+</html>

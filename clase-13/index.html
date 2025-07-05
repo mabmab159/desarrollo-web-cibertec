@@ -9,7 +9,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <body>
-
+    <h1>Este es un texto de prueba</h1>
+    <div id="div-click">Haga click aqui</div>
 </body>
+<script>
+    $('h1').css("color", "red")
+    $("#div-click").on("click", function () {
+        alert("Hiciste click aqui")
+    })
+</script>
 
 </html>
